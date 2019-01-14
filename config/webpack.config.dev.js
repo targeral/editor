@@ -149,6 +149,20 @@ module.exports = {
               compact: true,
             },
           },
+          {
+            test: /\.svg$/,
+            use: [
+              {
+                loader: require.resolve('babel-loader')
+              },
+              {
+                loader: require.resolve('../loader/svgToSymbol'),
+                options: {
+                  es6: true
+                }
+              }
+            ]
+          },
 
           // Compile .tsx?
           {

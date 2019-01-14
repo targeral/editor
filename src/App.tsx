@@ -1,19 +1,21 @@
 import * as React from 'react';
 import './App.css';
 
-import logo from './logo.svg';
+import Logo from './logo.svg';
 
 class App extends React.Component {
   public render() {
     return (
       <div className="App">
-        <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <h1 className="App-title">Welcome to React</h1>
-        </header>
-        <p className="App-intro">
-          To get started, edit <code>src/App.tsx</code> and save to reload.
-        </p>
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          xmlnsXlink="http://www.w3.org/1999/xlink" style={{display: 'none'}}
+        >
+          <Logo />
+        </svg>
+        <svg width="15px" height="15px">
+          <use xlinkHref="#logo" />
+        </svg>
       </div>
     );
   }
