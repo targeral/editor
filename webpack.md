@@ -809,3 +809,4 @@ http://forgetting.me/?p=210
 https://blog.csdn.net/sinat_17775997/article/details/83023148
 https://segmentfault.com/a/1190000015919863
 https://sebastianblade.com/using-webpack-to-achieve-long-term-cache/
+https://markus.oberlehner.net/blog/setting-up-a-vue-project-with-webpack-4-and-babel-7/
