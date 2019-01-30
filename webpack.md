@@ -811,4 +811,4 @@ https://segmentfault.com/a/1190000015919863
 https://sebastianblade.com/using-webpack-to-achieve-long-term-cache/
 https://markus.oberlehner.net/blog/setting-up-a-vue-project-with-webpack-4-and-babel-7/
 
-test1
+test2

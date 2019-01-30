@@ -1,6 +1,7 @@
 import * as React from 'react';
-import './App.css';
-
+import './App.less';
+import A from './components/A';
+import B from './components/B';
 import Logo from './logo.svg';
 
 class App extends React.Component {
@@ -16,6 +17,8 @@ class App extends React.Component {
         <svg width="15px" height="15px">
           <use xlinkHref="#logo" />
         </svg>
+        <A />
+        <B />
       </div>
     );
   }
