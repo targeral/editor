@@ -803,3 +803,9 @@ https://segmentfault.com/a/1190000015919863
 https://medium.com/webpack/predictable-long-term-caching-with-webpack-d3eee1d3fa31
 https://medium.com/webpack/webpack-4-mode-and-optimization-5423a6bc597a
 http://forgetting.me/?p=210
+
+
+待看：
+https://blog.csdn.net/sinat_17775997/article/details/83023148
+https://segmentfault.com/a/1190000015919863
+https://sebastianblade.com/using-webpack-to-achieve-long-term-cache/
