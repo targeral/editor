@@ -3,15 +3,11 @@
 const TYPE = '选择你这次提交更改的类型';
 
 module.exports = {
-    messages: {
-        type: TYPE,
-
-    },
     types: [
-        {
-            value: 'WIP',
-            name: '💪  WIP:      Work in progress'
-        },
+        // {
+        //     value: 'WIP',
+        //     name: '💪  WIP:      Work in progress'
+        // },
         {
             value: 'feat',
             name: '✨  feat:     A new feature'
