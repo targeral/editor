@@ -5,7 +5,26 @@ import B from './components/B';
 import Logo from './logo.svg';
 
 class App extends React.Component {
+
+  public state = {
+    notification: {}
+  }
+
+  public notifyMe() {
+    if (!('Notification' in window)) {
+      alert("This browser does not support desktop notification");
+    } else if (Notification.permission === 'granted') {
+      this.state.notification = new Notification('Hi there!');
+    } else if (Notification.permission !== 'denied') {
+      Notification.requestPermission(permission => {
+        if (permission === 'granted') {
+          this.state.notification = new Notification('Hi there!');
+        }
+      })
+    }
+  }
   public render() {
+    const notifyMe = this.notifyMe.bind(this);
     return (
       <div className="App">
         <svg
@@ -19,6 +38,7 @@ class App extends React.Component {
         </svg>
         <A />
         <B />
+        <button onClick={notifyMe}>Notify me!</button>
       </div>
     );
   }

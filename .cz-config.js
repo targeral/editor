@@ -4,10 +4,6 @@ const TYPE = '选择你这次提交更改的类型';
 
 module.exports = {
     types: [
-        // {
-        //     value: 'WIP',
-        //     name: '💪  WIP:      Work in progress'
-        // },
         {
             value: 'feat',
             name: '✨  feat:     A new feature'
@@ -46,5 +42,5 @@ module.exports = {
 
     allowCustomScopes: false,
     allowBreakingChanges: ["feat", "fix"],
-    footerPrefix: 'ICAFER CLOSED:'
+    footerPrefix: 'ICAFE CLOSED:'
 };
