@@ -1,13 +1,8 @@
 import * as React from 'react';
-<<<<<<< HEAD
-import { SvgSystem } from './containers/svgSystem';
-import './App.css';
-=======
 import './App.less';
 import A from './components/A';
 import B from './components/B';
 import Logo from './logo.svg';
->>>>>>> 02af377463857aba705fa4b9e70fdc9ec722305b
 
 class App extends React.Component {
 

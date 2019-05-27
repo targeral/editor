@@ -261,7 +261,7 @@ module.exports = {
 
 `number`
 
-一个模块可能会match很多种 `catchGroup`。使用那种优化方案将通过 `priority`来决定。默认cacheGroup的优先级为负值，以允许自定义的cacheGroup获得更高的优先级（自定义cacheGroup的默认值为0）。
+一个模块可能会match很多种 `cacheGroup`。使用那种优化方案将通过 `priority`来决定。默认cacheGroup的优先级为负值，以允许自定义的cacheGroup获得更高的优先级（自定义cacheGroup的默认值为0）。
 
 ###### splitChunks.cacheGroups.{cacheGroup}.reuseExistingChunk
 
