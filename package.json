@@ -58,7 +58,7 @@
     "react-dev-utils": "^7.0.1",
     "simple-html-tokenizer": "^0.1.1",
     "source-map-loader": "^0.2.4",
-    "standard-version": "^4.4.0",
+    "standard-version": "^8.0.1",
     "style-loader": "^0.23.1",
     "svg-to-jsx": "^1.0.0",
     "svgo": "^1.1.1",
